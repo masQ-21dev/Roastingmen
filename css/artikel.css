@@ -28,6 +28,28 @@ body{
 }
 
 .gambar-artikel{
-    max-width: 560px;
-    margin: 2px 30vw;
+    width: 560px;
+    padding: 0;
+    margin: 1rem 0;
+}
+
+.artikel-text{
+    text-align: justify;
+    padding: 0 8rem;
+    font-size: 18px;
+
+}
+
+
+@media screen and (max-width:995px) {
+    .judul-artikel{
+        font-size: 40px;
+    }
+
+    .gambar-artikel {
+        width: 400px;
+    }
+    .artikel-text{
+        padding: 0 3rem;
+    }
 }
