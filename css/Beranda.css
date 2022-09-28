@@ -49,6 +49,13 @@ body {
     font-size: 20px;
 }
 
+.text15s{
+    font-size: 15px;
+}
+
+.text-justify{
+    text-align: justify;
+}
 
 .hover-card{
     padding-left:5px;
@@ -60,30 +67,24 @@ body {
     cursor:pointer;
 }
 
-.card-title{  
-    font-size:15px;
-    transition:1s;
-    cursor:pointer;
+.card-img {
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
 }
 
-.card-title i{  
-    font-size:15px;
+.card-title{
     transition:1s;
     cursor:pointer;
-    color:#ffa710
+    -webkit-transition:1s;
+    -moz-transition:1s;
+    -ms-transition:1s;
+    -o-transition:1s;
 }
-.card-title i:hover{
-    transform: scale(1.25) rotate(100deg); 
-    color:#18d4ca;
-    
-}
+
 .card:hover{
     transform: scale(1.05);
     box-shadow: 10px 10px 15px rgba(0,0,0,0.3);
-}
-
-.card-text{
-    height:80px;  
 }
 
 .card::before, .card::after {
@@ -109,6 +110,12 @@ body {
 
 .card:hover::before, .card:hover::after, .card:focus::before, .card:focus::after {
     transform: scale3d(1, 1, 1);
+}
+
+.hotline-img {
+    width: 150px;
+    height: 150px;
+    object-fit: contain;
 }
 
 .footer{
