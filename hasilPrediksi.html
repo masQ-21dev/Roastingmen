@@ -5,12 +5,12 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>halaman prediksi</title>
+    <title>Hasil Prediksi</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
 
     <link rel="stylesheet" href="./css/navbarFooter.css">
-    <link rel="stylesheet" href="./css/prediksiPage.css">
+    <link rel="stylesheet" href="./css/hasilPrediksi.css">
 </head>
 
 <body>
@@ -82,23 +82,26 @@
     </nav>
 
     <div class="container my-5 py-5">
-        <p class="text-utama text-center mt-4">Hasil Prediksi</p>
-        <div class="row d-flex justify-content-around mt-3">
-            <!-- card 1 -->
-            <a href="#" class="card item-card rounded-5 shadow d-flex justify-content-center px-5 my-4">
-                <p class="text-light card-text text-center">Prediksi Masa Batuan (Lereng)</p>
-            </a>
 
-            <!-- card 1 -->
-            <a href="#" class="card item-card rounded-5 shadow d-flex justify-content-center px-5 my-4">
-                <p class="text-light card-text text-center">Prediksi Masa Batuan (Tunnel)</p>
-            </a>
+        <div class="text-center text mt-5 py-4">
+            <span class="text-utama">Hasil Prediksi</span>
+            <p class="text-kedua mt-3">dari proses kalkulasi yang dilakukan, lahan anda dikategorikan :</p>
+        </div>
 
-            <!-- card 1 -->
-            <a href="#" class="card item-card rounded-5 shadow d-flex justify-content-center px-5 my-4">
-                <p class="text-light card-text text-center">Riwayat Prediksi</p>
-            </a>
+        <div class="row justify-content-center">
+            <div
+                class="hasil w-75 d-flex align-items-center justify-content-center text-center bg-white rounded shadow-lg">
+                <span class="text-hasil">[keterangan] [(Hasil Pembobotan)]</span>
+            </div>
+        </div>
 
+        <div class="text-center text my-5 py-4">
+            <p class="text-kedua">dengan kelas [kelas]</p>
+            <p class="text-kedua">dengan rekomendasi [rekomendasi].</p>
+        </div>
+
+        <div class="row text-end pe-5">
+            <a href="#" class="text-kedua">kembali</a>
         </div>
 
     </div>
